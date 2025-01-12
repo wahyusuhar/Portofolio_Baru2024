@@ -185,17 +185,17 @@ ScrollReveal().reveal('.about-img,.fillter-buttons,.contact-info', { origin: "le
 ScrollReveal().reveal('.about-content,.skills', { origin: "right" });
 ScrollReveal().reveal('.allServices,.portfolio-gallery,.blog-box,footer,.img-hero', { origin: "bottom" });
 
-const themeToggle = document.getElementById('theme-toggle');
-themeToggle.addEventListener('click', () => {
-    document.body.classList.toggle('dark-mode');
-    document.querySelector('header').classList.toggle('dark-mode');
-    document.querySelectorAll('.portfolio-card').forEach(card => {
-        card.classList.toggle('dark-mode');
-    });
+// const themeToggle = document.getElementById('theme-toggle');
+// themeToggle.addEventListener('click', () => {
+//     document.body.classList.toggle('dark-mode');
+//     document.querySelector('header').classList.toggle('dark-mode');
+//     document.querySelectorAll('.portfolio-card').forEach(card => {
+//         card.classList.toggle('dark-mode');
+//     });
 
-    const isDarkMode = document.body.classList.contains('dark-mode');
-    document.getElementById('theme-icon').textContent = isDarkMode ? '🌙' : '🌞';
-});
+//     const isDarkMode = document.body.classList.contains('dark-mode');
+//     document.getElementById('theme-icon').textContent = isDarkMode ? '🌙' : '🌞';
+// });
 
 
 
