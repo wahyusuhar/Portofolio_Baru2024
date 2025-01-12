@@ -67,6 +67,7 @@ header .logo{
 span{
     background: var(--gradient-color-bg);
     -webkit-background-clip: text;
+    background-clip: text;
     color: transparent;
 }
 
@@ -87,6 +88,7 @@ ul.navlist{
 .navlist li a:hover,.navlist li a.active{
     background: var(--gradient-color-bg);
     -webkit-background-clip: text;
+    background-clip: text;
     color: transparent;
 }
 
@@ -190,6 +192,7 @@ section{
     background: var(--gradient-color-bg);
     background-repeat: no-repeat;
     -webkit-background-clip: text;
+    background-clip: text;
     background-position: 0 0;
     transition: 0.1s;
     letter-spacing: 2px;
@@ -1039,7 +1042,7 @@ header.dark-mode .navlist li a:hover,.navlist li a.active{
     background: #fff; 
 }
 
-.theme-toggle {
+/* .theme-toggle {
     position: fixed;
     bottom: 667px;
     right: 100px;
@@ -1080,7 +1083,7 @@ header.dark-mode .navlist li a:hover,.navlist li a.active{
         font-size: 16px; /* Kembalikan ukuran gambar ke normal */
     }
    
-}
+} */
     
 
 
