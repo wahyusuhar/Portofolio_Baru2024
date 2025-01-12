@@ -25,7 +25,9 @@ a{
     text-decoration: none;
     color: #000;
 }
-
+/* .sr{
+    overflow: hidden;
+} */
 body{
     font-family: 'Poppins', sans-serif;
     background: var(--bg-color);
@@ -1039,8 +1041,8 @@ header.dark-mode .navlist li a:hover,.navlist li a.active{
 
 .theme-toggle {
     position: fixed;
-    bottom: 700px;
-    right: 20px;
+    bottom: 667px;
+    right: 100px;
     background-color: #f5f2f4;
     padding: 10px;
     border-radius: 50%;
