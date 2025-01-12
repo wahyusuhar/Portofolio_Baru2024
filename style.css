@@ -1027,11 +1027,11 @@ header.dark-mode {
 header.dark-mode ul.navlist a {
     color: white;
 }
-header.dark-mode .navlist li a:hover,.navlist li a.active{
+/* header.dark-mode .navlist li a:hover,.navlist li a.active{
     background: var(--gradient-color-bg);
     -webkit-background-clip: text;
     color: transparent;
-}
+} */
 
 .portfolio-card.dark-mode {
     background-color: #333;
@@ -1083,7 +1083,7 @@ header.dark-mode .navlist li a:hover,.navlist li a.active{
         font-size: 16px; /* Kembalikan ukuran gambar ke normal */
     }
    
-} */
+
     
 
 
