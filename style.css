@@ -25,9 +25,10 @@ a{
     text-decoration: none;
     color: #000;
 }
-.sr{
-    overflow: hidden;
-}
+/* .sr{
+
+    
+} */
 body{
     font-family: 'Poppins', sans-serif;
     background: var(--bg-color);
