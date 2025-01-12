@@ -36,7 +36,7 @@ body{
 }
 
 header{
-    padding: 15px 8%;
+    padding: 5px;
     width: 100%;
     position: fixed;
     top: 0;
@@ -97,6 +97,7 @@ ul.navlist{
     align-items: center;
     justify-content: end;
     grid-gap: .8rem;
+    right: 50px;
 }
 
 .btn{
@@ -118,6 +119,7 @@ ul.navlist{
     width: 30px;
     height: 30px;
     cursor: pointer;
+    
     /* background: blue; */
 }
 
@@ -1013,20 +1015,9 @@ footer{
     font-size: 25px;
 }
 
-/* Dark Mode */
-body.dark-mode {
-    background-color: #040404;
-    color: #f60af6;
-}
 
-header.dark-mode {
-    background: #040404 ;
-    /* background: linear-gradient(90deg, #333, #222); */
-    color: #eeebee;
-}
-header.dark-mode ul.navlist a {
-    color: white;
-}
+
+/*  */
 /* header.dark-mode .navlist li a:hover,.navlist li a.active{
     background: var(--gradient-color-bg);
     -webkit-background-clip: text;
