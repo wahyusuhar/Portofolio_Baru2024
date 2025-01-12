@@ -596,8 +596,8 @@ section{
 
 .proposal img{
     width: 40vw;
-    height: auto;
-    margin: -4rem 0 0;
+    height: 30vw;
+    margin: -2rem 0 0;
     z-index: 2;
 }
 
